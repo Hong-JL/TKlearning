@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>评价检验</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/assessment.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">
+                    <svg class="nav-icon" viewBox="0 0 24 24" width="20" height="20">
+                        <path fill="currentColor" d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2z"/>
+                    </svg>
+                    首页
+                </a>
+            </li>
+            <li class="nav-item"><a href="activity1.html" class="nav-link">学习活动1</a></li>
+            <li class="nav-item"><a href="activity2.html" class="nav-link">学习活动2</a></li>
+            <li class="nav-item"><a href="activity3.html" class="nav-link">学习活动3</a></li>
+            <li class="nav-item"><a href="assessment.html" class="nav-link active">评价检验</a></li>
+        </ul>
+    </nav>
+
+    <!-- 评价内容 -->
+    <section class="assessment-section">
+        <h1>学习目标达成度自评</h1>
+        <form id="assessmentForm" class="assessment-form">
+            <div class="assessment-item">
+                <p>能结合个人经历，说出常见的在线交流方式</p>
+                <div class="star-rating">
+                    <input type="radio" id="star1-5" name="rating1" value="5"><label for="star1-5">★</label>
+                    <input type="radio" id="star1-4" name="rating1" value="4"><label for="star1-4">★</label>
+                    <input type="radio" id="star1-3" name="rating1" value="3"><label for="star1-3">★</label>
+                    <input type="radio" id="star1-2" name="rating1" value="2"><label for="star1-2">★</label>
+                    <input type="radio" id="star1-1" name="rating1" value="1"><label for="star1-1">★</label>
+                </div>
+            </div>
+
+            <div class="assessment-item">
+                <p>能做到在线交流遵守礼仪，根据场合选择恰当的交流方式</p>
+                <div class="star-rating">
+                    <input type="radio" id="star2-5" name="rating2" value="5"><label for="star2-5">★</label>
+                    <input type="radio" id="star2-4" name="rating2" value="4"><label for="star2-4">★</label>
+                    <input type="radio" id="star2-3" name="rating2" value="3"><label for="star2-3">★</label>
+                    <input type="radio" id="star2-2" name="rating2" value="2"><label for="star2-2">★</label>
+                    <input type="radio" id="star2-1" name="rating2" value="1"><label for="star2-1">★</label>
+                </div>
+            </div>
+
+            <div class="assessment-item">
+                <p>初步了解网络社交平台的作用</p>
+                <div class="star-rating">
+                    <input type="radio" id="star3-5" name="rating3" value="5"><label for="star3-5">★</label>
+                    <input type="radio" id="star3-4" name="rating3" value="4"><label for="star3-4">★</label>
+                    <input type="radio" id="star3-3" name="rating3" value="3"><label for="star3-3">★</label>
+                    <input type="radio" id="star3-2" name="rating3" value="2"><label for="star3-2">★</label>
+                    <input type="radio" id="star3-1" name="rating3" value="1"><label for="star3-1">★</label>
+                </div>
+            </div>
+
+            <div class="assessment-item">
+                <p>知道网络社交平台的影响，初步具备文明、健康开展网络社交的意识</p>
+                <div class="star-rating">
+                    <input type="radio" id="star4-5" name="rating4" value="5"><label for="star4-5">★</label>
+                    <input type="radio" id="star4-4" name="rating4" value="4"><label for="star4-4">★</label>
+                    <input type="radio" id="star4-3" name="rating4" value="3"><label for="star4-3">★</label>
+                    <input type="radio" id="star4-2" name="rating4" value="2"><label for="star4-2">★</label>
+                    <input type="radio" id="star4-1" name="rating4" value="1"><label for="star4-1">★</label>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">提交评价</button>
+        </form>
+    </section>
+
+    <script src="js/assessment.js"></script>
+</body>
+</html> 
